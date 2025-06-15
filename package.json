@@ -1,0 +1,21 @@
+{
+  "name": "automation-api",
+  "version": "1.0.0",
+  "description": "Automation API Testing for GoRest.co.in",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require @babel/register --reporter mochawesome test/userApiTest.mjs"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.27.2",
+    "@babel/register": "^7.27.1",
+    "axios": "^1.10.0",
+    "chai": "^5.2.0",
+    "dotenv": "^16.5.0",
+    "mocha": "^10.8.2",
+    "mochawesome": "^7.1.3"
+  }
+}
